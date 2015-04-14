@@ -7,5 +7,10 @@ public class XWindows {
 		String operator = scanner.next();
 		int zahl1 = scanner.nextInt();
 		int zahl2 = scanner.nextInt();
+		int result = 0;
+		if (operator.equals("+")) {
+			result = zahl1 + zahl2;
+		}
+		System.out.println(zahl1 + " " + operator + " " + zahl2 + " = " + result);
 	}
 }
