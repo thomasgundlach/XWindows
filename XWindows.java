@@ -12,6 +12,8 @@ public class XWindows {
 			result = zahl1 + zahl2;
 		} else if (operator.equals("-")) {
 			result = zahl1 - zahl2;
+		} else if (operator.equals("*")) {
+			result = zahl1 * zahl2;
 		}
 		System.out.println(zahl1 + " " + operator + " " + zahl2 + " = " + result);
 	}
